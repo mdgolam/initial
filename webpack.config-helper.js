@@ -206,8 +206,8 @@ module.exports = options => {
             ws: "true"
           },
           https: {
-            key: "private.key",
-            cert: "private.pem"
+            // key: "private.key",
+            // cert: "private.pem"
           },
           files: [
             {

@@ -1,12 +1,10 @@
-<!-- * TODO
-
 based on github.com/statickidz/webpack-handlebars-bootstrap.git
 
-but added
-- https (optional)
-https://gist.github.com/pgilad/63ddb94e0691eebd502deee207ff62bd
-- clean output
-- pages export to root (ready for github pages)
+added:
+- clean terminal output
+- pages export to root (ready for Github Pages)
 - not opening browser on start
-- fixed asset export
- -->
+- https (optional)
+
+<!-- todo: -->
+<!-- - watching not only hbs, but also scss -->

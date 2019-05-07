@@ -2,7 +2,7 @@ const pages = [
   {
     output: "./index.html",
     content: {
-      title: "Три сестры",
+      title: "Home",
       description: ""
     },
     template: "./src/pages/home.hbs"
