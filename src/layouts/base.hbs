@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <title>{{ htmlWebpackPlugin.options.title }}</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:description" content="{{ htmlWebpackPlugin.options.description }}">
+  <meta property="og:site_name" content="">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="article:author" content="">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="">
+  <meta name="twitter:description" content="{{ htmlWebpackPlugin.options.description }}">
+  <meta name="twitter:image:src" content="">
+  <meta name="twitter:url" content="">
+  <meta name="twitter:domain" content="">
+  <meta name="twitter:site" content="@">
+  <meta name="twitter:creator" content="@">
+
+
+</head>
+
+<body class="{{bodyclass}}">
+  {{> @partial-block }}
+</body>
+
+</html>
