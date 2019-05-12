@@ -42,12 +42,12 @@ module.exports = options => {
         jQuery: "jquery",
         "window.jQuery": "jquery"
       }),
-      new CopyWebpackPlugin([
-        {
-          from: "./src/assets/video",
-          to: "./assets/video"
-        }
-      ]),
+      // new CopyWebpackPlugin([
+      //   {
+      //     from: "./src/assets/video",
+      //     to: "./assets/video"
+      //   }
+      // ]),
       new CopyWebpackPlugin([
         { from: "./src/assets/fonts", to: "./assets/fonts" }
       ]),
@@ -75,14 +75,14 @@ module.exports = options => {
             presets: ["@babel/preset-env", "@babel/react"]
           }
         },
-        {
-          test: /\.mp4$/,
-          loader: "file-loader",
-          options: {
-            name: "[name].[ext]",
-            outputPath: "./assets/video"
-          }
-        },
+        // {
+        //   test: /\.mp4$/,
+        //   loader: "file-loader",
+        //   options: {
+        //     name: "[name].[ext]",
+        //     outputPath: "./assets/video"
+        //   }
+        // },
         {
           test: /\.hbs$/,
           loader: "handlebars-loader",

@@ -1,6 +1,6 @@
 {
-  "name": "webpack-handlebars-bootstrap",
-  "version": "1.0.0",
+  "name": "blank",
+  "version": "0.0.1",
   "description": "",
   "scripts": {
     "start": "nodemon --exec yarn watch --watch src/pages.js",
@@ -9,14 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/statickidz/webpack-handlebars-bootstrap.git"
+    "url": "git+https://github.com/mdgolam/blank.git"
   },
   "keywords": [],
-  "author": "Adrián Barrio Andrés <statickidz@gmail.com>",
+  "author": "Md Golam Vlad <vladmdgolam@ya.ru>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/statickidz/webpack-handlebars-bootstrap/issues"
-  },
   "eslintConfig": {
     "env": {
       "browser": true,
@@ -30,7 +27,7 @@
       "semi": 2
     }
   },
-  "homepage": "https://github.com/statickidz/webpack-handlebars-bootstrap#readme",
+  "homepage": "https://mdgolam.github.io",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
