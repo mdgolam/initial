@@ -202,7 +202,7 @@ module.exports = options => {
           port: 7001,
           open: false,
           proxy: {
-            target: "https://localhost:7001/",
+            target: "http://localhost:7001/",
             ws: "true"
           },
           https: {

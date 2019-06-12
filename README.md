@@ -1,19 +1,21 @@
 # Gh-Pages Handlebars + SASS + Image Compression Boilerplate
-Github Pages ready boilerplate w/ handlebars, sass, image compression and more
+## Github Pages ready boilerplate w/ handlebars, sass, image compression and more
 *optional*: bs, jquery and react
 
 building via webpack
+
 based on github.com/statickidz/webpack-handlebars-bootstrap.git
 
-added:
+features:
+- BrowserSync
 - clean terminal output
-- pages export to root (ready for Github Pages)
-- not opening browser on start
-- https (optional)
-- more friendly port (7001)
+- pages export to root (so it's ready for Github Pages, but you can change it)
 - template structure with “base” and “content”
-- sass mixin for font-face
+<!-- - more friendly port (7001) -->
+- https (optional)
 - bs responsive debug block
+- sass mixin for font-face
+<!-- - not opening browser on start -->
 
 ## How to start developing
 * download this repo
